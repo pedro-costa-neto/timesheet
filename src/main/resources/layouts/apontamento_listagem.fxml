@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#onKeyPressed" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apontamento.controller.ApontamentoListagemController">
+   <children>
+      <Label layoutX="10.0" layoutY="10.0" text="Empresa" />
+      <TextField fx:id="campoEmpresaCodigo" layoutX="10.0" layoutY="35.0" prefHeight="25.0" prefWidth="60.0" />
+      <TextField fx:id="campoEmpresaDescricao" disable="true" layoutX="72.0" layoutY="35.0" prefHeight="25.0" prefWidth="160.0" />
+      <Label layoutX="243.0" layoutY="10.0" text="Data Início" />
+      <TextField fx:id="campoDataInicio" layoutX="241.0" layoutY="35.0" prefHeight="25.0" prefWidth="80.0" />
+      <Label layoutX="333.0" layoutY="10.0" text="Data Fim" />
+      <TextField fx:id="campoDataFim" layoutX="331.0" layoutY="35.0" prefHeight="25.0" prefWidth="80.0" />
+      <Button layoutX="421.0" layoutY="35.0" mnemonicParsing="false" onAction="#atualizarTabela" text="Filtrar" />
+      <TableView fx:id="apontamentos" layoutX="10.0" layoutY="74.0" prefHeight="274.0" prefWidth="600.0" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="74.0" />
+      <Pagination layoutX="99.0" layoutY="200.0" maxPageIndicatorCount="5" prefHeight="50.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

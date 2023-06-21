@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="437.0" minWidth="817.0" onKeyPressed="#onKeyPressed" prefHeight="437.0" prefWidth="817.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apontamento.controller.ApontamentoFormularioController">
+   <children>
+      <Label fx:id="label_info_empresa" layoutX="11.0" layoutY="6.0" text="Empresa" />
+      <TextField fx:id="campoEmpresaCodigo" layoutX="10.0" layoutY="29.0" prefHeight="25.0" prefWidth="65.0" />
+      <TextField fx:id="campoEmpresaDescricao" disable="true" layoutX="78.0" layoutY="29.0" prefHeight="25.0" prefWidth="185.0" />
+      <Label fx:id="label_info_projeto" layoutX="274.0" layoutY="6.0" text="Projeto" />
+      <TextField fx:id="campoProjetoCodigo" layoutX="273.0" layoutY="29.0" prefHeight="25.0" prefWidth="65.0" />
+      <TextField fx:id="campoProjetoDescricao" disable="true" layoutX="341.0" layoutY="29.0" prefHeight="25.0" prefWidth="185.0" />
+      <Label fx:id="label_data" layoutX="537.0" layoutY="8.0" prefHeight="17.0" prefWidth="49.0" text="Data" />
+      <TextField fx:id="campoData" layoutX="536.0" layoutY="29.0" prefHeight="25.0" prefWidth="80.0" />
+      <Label fx:id="label_hora_inicio" layoutX="627.0" layoutY="8.0" text="Hora Início" />
+      <TextField fx:id="campoHoraInicial" layoutX="626.0" layoutY="29.0" prefHeight="25.0" prefWidth="70.0" />
+      <Label fx:id="label_hora_fim" layoutX="708.0" layoutY="8.0" text="Hora Fim" />
+      <TextField fx:id="campoHoraFinal" layoutX="707.0" layoutY="29.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextArea fx:id="campoDescricao" layoutX="10.0" layoutY="64.0" prefHeight="329.0" prefWidth="619.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="64.0" />
+      <Button fx:id="botaoSalvar" layoutX="561.0" layoutY="403.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="10.0" />
+      <Button fx:id="botaoCancelar" layoutX="490.0" layoutY="403.0" mnemonicParsing="false" onAction="#fechar" text="Cancelar" AnchorPane.bottomAnchor="9.0" AnchorPane.rightAnchor="67.0" />
+   </children>
+</AnchorPane>

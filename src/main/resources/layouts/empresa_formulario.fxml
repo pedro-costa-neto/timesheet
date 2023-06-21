@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#onKeyPressed" prefHeight="187.0" prefWidth="383.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apontamento.controller.EmpresaFormularioController">
+   <children>
+      <TextField fx:id="campoCodigo" layoutX="69.0" layoutY="19.0" prefHeight="25.0" prefWidth="65.0" />
+      <TextField fx:id="campoRazao" layoutX="69.0" layoutY="55.0" prefHeight="25.0" prefWidth="299.0" />
+      <TextField fx:id="campoFantasia" layoutX="70.0" layoutY="91.0" prefHeight="25.0" prefWidth="299.0" />
+      <TextField fx:id="campoCnpj" layoutX="70.0" layoutY="127.0" prefHeight="25.0" prefWidth="129.0" />
+      <Label layoutX="19.0" layoutY="22.0" text="Código" />
+      <Label layoutX="26.0" layoutY="58.0" text="Razão" />
+      <Label layoutX="17.0" layoutY="94.0" text="Fantasia" />
+      <Label layoutX="31.0" layoutY="130.0" text="CNPJ" />
+      <Button layoutX="324.0" layoutY="153.0" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
+      <Button fx:id="botaoCancelar" layoutX="252.0" layoutY="153.0" mnemonicParsing="false" onAction="#fechar" text="Cancelar" />
+   </children>
+</AnchorPane>
