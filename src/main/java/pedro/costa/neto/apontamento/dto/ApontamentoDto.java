@@ -1,11 +1,11 @@
-package apontamento.dto;
+package pedro.costa.neto.apontamento.dto;
 
 import java.io.Serializable;
 import java.util.Collections;
 import java.util.List;
 
-import apontamento.model.Apontamento;
-import apontamento.util.FuncoesUtil;
+import pedro.costa.neto.apontamento.model.Apontamento;
+import pedro.costa.neto.apontamento.util.FuncoesUtil;
 
 public class ApontamentoDto implements Serializable {
 	private static final long serialVersionUID = 1L;

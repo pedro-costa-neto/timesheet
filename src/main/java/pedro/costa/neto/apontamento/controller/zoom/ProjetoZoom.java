@@ -1,14 +1,14 @@
-package apontamento.controller.zoom;
+package pedro.costa.neto.apontamento.controller.zoom;
 
 import org.apache.log4j.Logger;
 
 import com.google.common.base.Strings;
 
-import apontamento.model.Projeto;
-import apontamento.service.ProjetoService;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.scene.control.TextField;
+import pedro.costa.neto.apontamento.model.Projeto;
+import pedro.costa.neto.apontamento.service.ProjetoService;
 
 public class ProjetoZoom {
 	

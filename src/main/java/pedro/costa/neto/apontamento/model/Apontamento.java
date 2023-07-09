@@ -1,4 +1,4 @@
-package apontamento.model;
+package pedro.costa.neto.apontamento.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -15,7 +15,7 @@ import com.google.common.base.Strings;
 import com.j256.ormlite.field.DataType;
 import com.j256.ormlite.field.DatabaseField;
 
-import apontamento.util.FuncoesUtil;
+import pedro.costa.neto.apontamento.util.FuncoesUtil;
 
 @Entity(name = "apontamento")
 public class Apontamento implements Serializable {

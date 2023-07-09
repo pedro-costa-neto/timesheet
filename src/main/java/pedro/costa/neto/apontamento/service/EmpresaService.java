@@ -1,4 +1,4 @@
-package apontamento.service;
+package pedro.costa.neto.apontamento.service;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -9,8 +9,8 @@ import com.j256.ormlite.dao.Dao.CreateOrUpdateStatus;
 import com.j256.ormlite.stmt.QueryBuilder;
 import com.j256.ormlite.support.ConnectionSource;
 
-import apontamento.dao.EmpresaDao;
-import apontamento.model.Empresa;
+import pedro.costa.neto.apontamento.dao.EmpresaDao;
+import pedro.costa.neto.apontamento.model.Empresa;
 
 public class EmpresaService {
 	

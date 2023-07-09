@@ -1,4 +1,4 @@
-package apontamento.controller;
+package pedro.costa.neto.apontamento.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -8,12 +8,6 @@ import org.apache.log4j.Logger;
 import com.google.common.base.Strings;
 import com.j256.ormlite.support.ConnectionSource;
 
-import apontamento.config.DatabaseConfig;
-import apontamento.controller.zoom.EmpresaZoom;
-import apontamento.model.Empresa;
-import apontamento.model.Projeto;
-import apontamento.service.EmpresaService;
-import apontamento.service.ProjetoService;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -22,6 +16,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
+import pedro.costa.neto.apontamento.config.DatabaseConfig;
+import pedro.costa.neto.apontamento.controller.zoom.EmpresaZoom;
+import pedro.costa.neto.apontamento.model.Empresa;
+import pedro.costa.neto.apontamento.model.Projeto;
+import pedro.costa.neto.apontamento.service.EmpresaService;
+import pedro.costa.neto.apontamento.service.ProjetoService;
 
 public class ProjetoFormularioController implements Initializable {
 	

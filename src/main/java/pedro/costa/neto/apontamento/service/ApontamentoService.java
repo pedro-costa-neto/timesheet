@@ -1,4 +1,4 @@
-package apontamento.service;
+package pedro.costa.neto.apontamento.service;
 
 import java.sql.SQLException;
 import java.util.Collections;
@@ -11,11 +11,11 @@ import com.j256.ormlite.dao.Dao.CreateOrUpdateStatus;
 import com.j256.ormlite.stmt.QueryBuilder;
 import com.j256.ormlite.support.ConnectionSource;
 
-import apontamento.dao.ApontamentoDao;
-import apontamento.dto.ApontamentoFiltroDto;
-import apontamento.model.Apontamento;
-import apontamento.model.Empresa;
-import apontamento.model.Projeto;
+import pedro.costa.neto.apontamento.dao.ApontamentoDao;
+import pedro.costa.neto.apontamento.dto.ApontamentoFiltroDto;
+import pedro.costa.neto.apontamento.model.Apontamento;
+import pedro.costa.neto.apontamento.model.Empresa;
+import pedro.costa.neto.apontamento.model.Projeto;
 
 public class ApontamentoService {
 	private final static Logger log = Logger.getLogger(ApontamentoService.class);

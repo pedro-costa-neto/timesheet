@@ -1,4 +1,4 @@
-package apontamento.util;
+package pedro.costa.neto.apontamento.util;
 
 import javafx.beans.value.ObservableValue;
 import javafx.collections.ObservableList;

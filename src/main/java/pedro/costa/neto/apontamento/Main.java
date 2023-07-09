@@ -1,4 +1,4 @@
-package apontamento;
+package pedro.costa.neto.apontamento;
 
 import org.apache.log4j.Logger;
 
@@ -24,6 +24,7 @@ public class Main extends Application {
         
         Stage stage1 = new Stage();
         Scene scene = new Scene(parent);
+        stage1.setMaximized(true);
         stage1.setScene(scene);
         stage1.setTitle("Timesheet");
         stage1.getIcons().add(new Image("/icon.png"));

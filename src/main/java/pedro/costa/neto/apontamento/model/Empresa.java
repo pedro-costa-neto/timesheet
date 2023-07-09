@@ -1,4 +1,4 @@
-package apontamento.model;
+package pedro.costa.neto.apontamento.model;
 
 import java.io.Serializable;
 

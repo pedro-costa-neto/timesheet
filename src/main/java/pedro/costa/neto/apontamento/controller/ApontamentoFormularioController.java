@@ -1,4 +1,4 @@
-package apontamento.controller;
+package pedro.costa.neto.apontamento.controller;
 
 import java.net.URL;
 import java.sql.SQLException;
@@ -13,15 +13,6 @@ import org.apache.log4j.Logger;
 import com.google.common.base.Strings;
 import com.j256.ormlite.support.ConnectionSource;
 
-import apontamento.config.DatabaseConfig;
-import apontamento.controller.zoom.EmpresaZoom;
-import apontamento.controller.zoom.ProjetoZoom;
-import apontamento.model.Apontamento;
-import apontamento.service.ApontamentoService;
-import apontamento.service.EmpresaService;
-import apontamento.service.ProjetoService;
-import apontamento.util.FuncoesUtil;
-import apontamento.util.MascarasFX;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -29,6 +20,15 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
+import pedro.costa.neto.apontamento.config.DatabaseConfig;
+import pedro.costa.neto.apontamento.controller.zoom.EmpresaZoom;
+import pedro.costa.neto.apontamento.controller.zoom.ProjetoZoom;
+import pedro.costa.neto.apontamento.model.Apontamento;
+import pedro.costa.neto.apontamento.service.ApontamentoService;
+import pedro.costa.neto.apontamento.service.EmpresaService;
+import pedro.costa.neto.apontamento.service.ProjetoService;
+import pedro.costa.neto.apontamento.util.FuncoesUtil;
+import pedro.costa.neto.apontamento.util.MascarasFX;
 
 public class ApontamentoFormularioController implements Initializable {
 	

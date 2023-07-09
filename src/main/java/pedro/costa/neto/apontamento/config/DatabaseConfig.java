@@ -1,4 +1,4 @@
-package apontamento.config;
+package pedro.costa.neto.apontamento.config;
 
 import java.sql.SQLException;
 

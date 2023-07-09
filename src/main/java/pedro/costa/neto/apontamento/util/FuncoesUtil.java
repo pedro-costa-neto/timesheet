@@ -1,4 +1,4 @@
-package apontamento.util;
+package pedro.costa.neto.apontamento.util;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
