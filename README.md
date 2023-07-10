@@ -8,3 +8,4 @@ Sistema para apontamento de horas por atividade
 - [ ] Desenvolver a paginação da listagem de apontamento.
 - [ ] Criar o botão de pesquisa nos campos zoom de empresa e projeto.
 - [ ] Desenvolver rotina para importar apontamentos por CSV ou XLS.
+- [ ] Implementar os cenários de testes.
